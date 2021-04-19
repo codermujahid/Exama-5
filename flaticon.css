@@ -1,0 +1,129 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "flaticon";
+  src: url("./flaticon.ttf?95a5a8321d8a31f62e13567fb8d233fd") format("truetype"), url("./flaticon.woff?95a5a8321d8a31f62e13567fb8d233fd") format("woff"), url("./flaticon.woff2?95a5a8321d8a31f62e13567fb8d233fd") format("woff2"), url("./flaticon.eot?95a5a8321d8a31f62e13567fb8d233fd#iefix") format("embedded-opentype"), url("./flaticon.svg?95a5a8321d8a31f62e13567fb8d233fd#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+  font-family: flaticon !important;
+  font-style: normal;
+  font-weight: normal !important;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-architecture:before {
+  content: "";
+}
+
+.flaticon-atom:before {
+  content: "";
+}
+
+.flaticon-book-1:before {
+  content: "";
+}
+
+.flaticon-book:before {
+  content: "";
+}
+
+.flaticon-calendar:before {
+  content: "";
+}
+
+.flaticon-clipboard:before {
+  content: "";
+}
+
+.flaticon-clock:before {
+  content: "";
+}
+
+.flaticon-computer:before {
+  content: "";
+}
+
+.flaticon-data-mining:before {
+  content: "";
+}
+
+.flaticon-envelope:before {
+  content: "";
+}
+
+.flaticon-facebook:before {
+  content: "";
+}
+
+.flaticon-globe:before {
+  content: "";
+}
+
+.flaticon-graduate-cap:before {
+  content: "";
+}
+
+.flaticon-instagram:before {
+  content: "";
+}
+
+.flaticon-left-arrow:before {
+  content: "";
+}
+
+.flaticon-microscope:before {
+  content: "";
+}
+
+.flaticon-palette:before {
+  content: "";
+}
+
+.flaticon-placeholder:before {
+  content: "";
+}
+
+.flaticon-quote:before {
+  content: "";
+}
+
+.flaticon-right-arrow:before {
+  content: "";
+}
+
+.flaticon-science:before {
+  content: "";
+}
+
+.flaticon-searching:before {
+  content: "";
+}
+
+.flaticon-skype:before {
+  content: "";
+}
+
+.flaticon-star:before {
+  content: "";
+}
+
+.flaticon-teacher:before {
+  content: "";
+}
+
+.flaticon-twitter:before {
+  content: "";
+}
+
+.flaticon-user:before {
+  content: "";
+}
+
+.flaticon-vote:before {
+  content: "";
+}
+/*# sourceMappingURL=flaticon.css.map */

@@ -1,0 +1,137 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?95a5a8321d8a31f62e13567fb8d233fd") format("truetype"),
+url("./flaticon.woff?95a5a8321d8a31f62e13567fb8d233fd") format("woff"),
+url("./flaticon.woff2?95a5a8321d8a31f62e13567fb8d233fd") format("woff2"),
+url("./flaticon.eot?95a5a8321d8a31f62e13567fb8d233fd#iefix") format("embedded-opentype"),
+url("./flaticon.svg?95a5a8321d8a31f62e13567fb8d233fd#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "architecture": "\f101",
+    "atom": "\f102",
+    "book-1": "\f103",
+    "book": "\f104",
+    "calendar": "\f105",
+    "clipboard": "\f106",
+    "clock": "\f107",
+    "computer": "\f108",
+    "data-mining": "\f109",
+    "envelope": "\f10a",
+    "facebook": "\f10b",
+    "globe": "\f10c",
+    "graduate-cap": "\f10d",
+    "instagram": "\f10e",
+    "left-arrow": "\f10f",
+    "microscope": "\f110",
+    "palette": "\f111",
+    "placeholder": "\f112",
+    "quote": "\f113",
+    "right-arrow": "\f114",
+    "science": "\f115",
+    "searching": "\f116",
+    "skype": "\f117",
+    "star": "\f118",
+    "teacher": "\f119",
+    "twitter": "\f11a",
+    "user": "\f11b",
+    "vote": "\f11c",
+);
+
+.flaticon-architecture:before {
+    content: map-get($flaticon-map, "architecture");
+}
+.flaticon-atom:before {
+    content: map-get($flaticon-map, "atom");
+}
+.flaticon-book-1:before {
+    content: map-get($flaticon-map, "book-1");
+}
+.flaticon-book:before {
+    content: map-get($flaticon-map, "book");
+}
+.flaticon-calendar:before {
+    content: map-get($flaticon-map, "calendar");
+}
+.flaticon-clipboard:before {
+    content: map-get($flaticon-map, "clipboard");
+}
+.flaticon-clock:before {
+    content: map-get($flaticon-map, "clock");
+}
+.flaticon-computer:before {
+    content: map-get($flaticon-map, "computer");
+}
+.flaticon-data-mining:before {
+    content: map-get($flaticon-map, "data-mining");
+}
+.flaticon-envelope:before {
+    content: map-get($flaticon-map, "envelope");
+}
+.flaticon-facebook:before {
+    content: map-get($flaticon-map, "facebook");
+}
+.flaticon-globe:before {
+    content: map-get($flaticon-map, "globe");
+}
+.flaticon-graduate-cap:before {
+    content: map-get($flaticon-map, "graduate-cap");
+}
+.flaticon-instagram:before {
+    content: map-get($flaticon-map, "instagram");
+}
+.flaticon-left-arrow:before {
+    content: map-get($flaticon-map, "left-arrow");
+}
+.flaticon-microscope:before {
+    content: map-get($flaticon-map, "microscope");
+}
+.flaticon-palette:before {
+    content: map-get($flaticon-map, "palette");
+}
+.flaticon-placeholder:before {
+    content: map-get($flaticon-map, "placeholder");
+}
+.flaticon-quote:before {
+    content: map-get($flaticon-map, "quote");
+}
+.flaticon-right-arrow:before {
+    content: map-get($flaticon-map, "right-arrow");
+}
+.flaticon-science:before {
+    content: map-get($flaticon-map, "science");
+}
+.flaticon-searching:before {
+    content: map-get($flaticon-map, "searching");
+}
+.flaticon-skype:before {
+    content: map-get($flaticon-map, "skype");
+}
+.flaticon-star:before {
+    content: map-get($flaticon-map, "star");
+}
+.flaticon-teacher:before {
+    content: map-get($flaticon-map, "teacher");
+}
+.flaticon-twitter:before {
+    content: map-get($flaticon-map, "twitter");
+}
+.flaticon-user:before {
+    content: map-get($flaticon-map, "user");
+}
+.flaticon-vote:before {
+    content: map-get($flaticon-map, "vote");
+}
